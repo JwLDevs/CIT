@@ -1,4 +1,4 @@
-# Rock-Paper-Scissors
+# Rock-Paper-Scissors - Advanced 2
 
 import random
 

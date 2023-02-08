@@ -1,4 +1,4 @@
-# Name generator
+# Name generator - Advanced 5
 
 import random
 

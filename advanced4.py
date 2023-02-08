@@ -1,4 +1,4 @@
-# Lucky number function
+# Lucky number function - Advanced 4
 
 import random
 

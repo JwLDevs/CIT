@@ -1,4 +1,4 @@
-# Pay counter
+# Pay counter - Advanced 1
 
 income = input("What is your gross income? (MYR) ")
 
