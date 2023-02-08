@@ -7,13 +7,15 @@ password_generator = input("Type [y] for a free strong password ")
 
 if (password_generator == "y"):
 
-    def randomPW():
-        letters = string.ascii_letters
-        numbers = string.digits
+    letters = string.ascii_letters
+    numbers = string.digits
+    arr = []
 
-        return ''.join(random.choice(letters + numbers) for i in range(8))
+    for i in range(8):
+        str(arr.append(random.choice(letters + numbers)))
     
-    print("Your password: " + randomPW())
+    print('\n\033[1m' + "Your password is: " + '\033[0;0m')
+    print("".join(arr))
 
 else:
     print("ok fuck off then")
