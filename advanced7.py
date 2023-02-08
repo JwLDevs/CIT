@@ -1,9 +1,9 @@
 # BMI-function - Advanced 7
 
 weight = input("Whats yo weight boi (kg) ").replace("kg", "")
-height = input("how tall r u dawg (m) ").replace("m", "")
+height = input("how tall r u dawg (cm) ").replace("cm", "")
 
-BMI = int(weight) / (float(height) * float(height))
+BMI = int(weight) / ((int(height) / 100) * (int(height) / 100))
 
 print("Your BMI is: " + str(round(BMI, 3)))
 
