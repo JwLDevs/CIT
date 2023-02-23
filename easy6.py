@@ -7,19 +7,24 @@ def calculation():
 
     global question
     question = calculator.split(" ")
-    print(question)
+    #print(question)
+
+    work_out = "".join(question)
 
     if ("+" in question):
-        print(int(question[0]) + int(question[len(question) - 1]))
+        print(str(work_out) + " = " + str(int(question[0]) + int(question[len(question) - 1])))
 
     elif ("-" in question):
-        print(int(question[0]) - int(question[len(question) - 1]))
+        print(str(work_out) + " = " + str(int(question[0]) - int(question[len(question) - 1])))
     
     elif ("*" in question):
-        print(int(question[0]) * int(question[len(question) - 1]))
+        print(str(work_out) + " = " + str(int(question[0]) * int(question[len(question) - 1])))
 
     elif ("/" in question):
-        print(int(question[0]) / int(question[len(question) - 1]))
+        print(str(work_out) + " = " + str(int(question[0]) / int(question[len(question) - 1])))
+        
+    else:
+        print("Invalid syntax.")
 
 
 while True:
